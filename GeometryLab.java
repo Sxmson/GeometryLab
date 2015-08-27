@@ -18,11 +18,11 @@ public class GeometryLab {
     public int m(int x, int y, int z) {
         return x + y - z;
     }
-    public int triArea(int b, int h) {
-            return 1/2 * b * h;
+    public double triArea(int b, int h) {
+            return 0.5 * b * h;
     }
-    public int trapArea(int b1, int b2, int h) {
-            return 1/2 * h * ( b1 + b2 );
+    public double trapArea(int b1, int b2, int h) {
+            return 0.5 * h * ( b1 + b2 );
     }
     public int rectArea(int b, int h) {
             return b * h;
@@ -36,13 +36,13 @@ public class GeometryLab {
     public int pythHypotenuse(int a, int b) {
             return a * a + b * b;
     }
-    public int triPrismVol(int b, int h, int w) {
-            return 1/2 * b * h * w;
+    public double triPrismVol(int b, int h, int w) {
+            return 0.5 * b * h * w;
     }
     public int rectPrismVol(int b, int h, int w) {
             return b * h * w;
     }
-    public int rectPyramidVol(int b, int h, int w) {
+    public double rectPyramidVol(int b, int h, int w) {
             return 1/3 * b*h * w;
     }
     public double cylVol(int r, int h) {

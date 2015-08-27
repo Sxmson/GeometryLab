@@ -23,5 +23,6 @@ public class GeometryLabTest {
         System.out.println(geo.k(geo.k(9, 7), geo.f(4, 8)));
         System.out.println(geo.m(geo.h(4, 10), geo.f(2, 3), geo.g(5, 3)));
         System.out.println(geo.m(geo.k(7, 9), geo.j(5, 10), geo.h(4, 10)));
+        System.out.println(geo.triArea(2, 3));
     }
 }
