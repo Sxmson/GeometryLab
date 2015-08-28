@@ -43,18 +43,18 @@ public class GeometryLab {
             return b * h * w;
     }
     public double rectPyramidVol(int b, int h, int w) {
-            return 1/3 * b*h * w;
+            return 1.0/3 * b*h * w;
     }
     public double cylVol(int r, int h) {
             return 3.14 * r * r * h;
     }
     public double sphereVol(int r) {
-            return 4/3 * 3.14 * r * r * r;
+            return 4.0/3 * 3.14 * r * r * r;
     }
     public double coneVol(int r, int h) {
             return 1/3 * 3.14 * r * r * h;
     }
-    public double sphereSurfAreaint (int r) {
+    public double sphereSurfArea (int r) {
             return 4 * 3.14 * r * r;
     }
     public double cylSurfArea(int r, int h) {
